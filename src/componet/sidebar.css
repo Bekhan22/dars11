@@ -1,0 +1,46 @@
+.sidebar {
+    width: 306px;
+    min-height: 100vh;
+    background-color: white;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+#btn-sidebar {
+    padding: 5px 15px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: rgb(0, 200, 255);
+    color: white;
+    border: none;
+    margin-left: 255px;
+    margin-top: 30px;
+}
+
+.close {
+    left: -310px;
+    margin-left: -310px;
+}
+
+nav ul li a {
+    color: #9197B3;
+    text-decoration: none;
+    margin-left: 40px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a i{
+    margin-right: 10px;
+}
+nav ul li a:hover {
+    background-color: #5932EA;
+    padding: 4px;
+    border-radius: 8px;
+    color: white;
+}
